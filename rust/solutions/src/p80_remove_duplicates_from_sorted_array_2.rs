@@ -50,7 +50,6 @@ mod tests {
         let mut v2 = vec![0, 0, 1, 1, 1, 1, 2, 3, 3];
 
         let len1 = Solution::remove_duplicates(&mut v1);
-        println!("{:?}", v1);
         assert_eq!(5, len1);
         assert_eq!(vec![1, 1, 2, 2, 3], v1[0..(len1 as usize)]);
 
@@ -65,7 +64,6 @@ mod tests {
         let mut v2 = vec![0, 0, 1, 1, 1, 1, 2, 3, 3];
 
         let len1 = BetterSolution::remove_duplicates(&mut v1);
-        println!("{:?}", v1);
         assert_eq!(5, len1);
         assert_eq!(vec![1, 1, 2, 2, 3], v1[0..(len1 as usize)]);
 
