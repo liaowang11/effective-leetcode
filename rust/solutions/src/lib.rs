@@ -17,3 +17,4 @@ pub mod p179_largest_number;
 pub mod p263_ugly_number;
 pub mod p783_min_distance_between_bst_nodes;
 pub mod p1026_max_diff_between_node_and_ancestor;
+pub mod p215_kth_largest_element_in_an_array;
